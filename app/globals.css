@@ -2,26 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+body{
+  @apply text-lg
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.container {
+  @apply mx-auto 2xl:max-w-[1320px] xl:max-w-[1280px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] px-4;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+.primary-btn {
+  @apply bg-[#009DAE] px-7 py-3 rounded-[5px] text-white
+}
+
+.bg-circle{
+  @apply text-[#009DAE] border border-[#009DAE] p-3 rounded-full  
+}
+.bg-circle:hover{
+  @apply text-white border border-[#009DAE] bg-[#009DAE] p-3 rounded-full  
+}
+
+.offcanvas.active {
+  left: 0;
 }
