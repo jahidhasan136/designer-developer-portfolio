@@ -17,7 +17,7 @@ body{
 }
 
 .bg-circle{
-  @apply text-[#009DAE] border border-[#009DAE] p-3 rounded-full  
+  @apply text-[#009DAE] border border-[#009DAE] p-3 rounded-full cursor-pointer
 }
 .bg-circle:hover{
   @apply text-white border border-[#009DAE] bg-[#009DAE] p-3 rounded-full  
