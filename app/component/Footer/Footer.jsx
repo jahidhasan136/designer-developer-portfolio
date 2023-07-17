@@ -4,13 +4,19 @@ import logo from '../Header/images/header_logo.png'
 import Link from 'next/link';
 
 import bgCall from './images/bg_call.png'
+import bgRight from './images/bg_right.png'
+import bottomLeft from './images/bottom_left.png'
+import topLeft from './images/top_left.png'
 
 const Footer = () => {
     return (
         <div className='text-white relative mt-[493px]'>
-            {/* <img className='absolute -z-10' src={bgCall.src} alt="" /> */}
             <div className='absolute -top-1/3 left-0 right-0 inline-flex '>
-                <div className='bg-[#F5FDFD] p-[100px] text-center rounded-[48px] mx-auto'>
+                <div className='bg-[#F5FDFD] px-[220px] py-[98px] text-center rounded-[40px] mx-auto relative z-10'>
+                    <img className='absolute -z-10 top-0 left-8' src={bgCall.src} alt="" />
+                    <img className='absolute -z-10 bottom-0 right-0' src={bgRight.src} alt="" />
+                    <img className='absolute -z-10 top-0 left-7' src={topLeft.src} alt="" />
+                    <img className='absolute -z-10 bottom-16 left-0' src={bottomLeft.src} alt="" />
                     <h1 className='text-black text-[45px] font-bold mb-[43px] leading-[55px]'>Can't find your desire service? <br /> <span className='text-[#FF4F6E]'>Let us know 24/7 in 123456</span></h1>
                     <div className='flex gap-[25px] justify-center'>
                         <Link href='/' className='primary-btn'>Hire Me</Link>
