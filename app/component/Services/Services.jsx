@@ -6,10 +6,10 @@ import bgDot from './images/bg-dot.png'
 const Services = () => {
     return (
         <div className="pl-[300px] mt-[115px]">
-            <div className='flex items-center gap-[30px]'>
+            <div className='flex items-center gap-[10px]'>
                 <div>
-                    <h5 className="uppercase text-[#FF4F6E] text-xl mb-[14px]">Services</h5>
-                    <h2 className="capitalize font-bold text-[35px] leading-10">I provide wide range of digital services</h2>
+                    <h6 className="uppercase text-[#FF4F6E] text-xl mb-[14px] font-medium">Services</h6>
+                    <h2 className="capitalize font-bold text-[35px] leading-10 w-10/12">I provide wide range of digital services</h2>
                 </div>
                 <div className='flex gap-[30px] relative'>
                     <img className='absolute -left-10 -bottom-10 -z-10' src={bgDot.src} alt="" />
