@@ -11,9 +11,18 @@ body{
   @apply mx-auto 2xl:max-w-[1320px] xl:max-w-[1280px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] px-4;
 }
 
+h1,h2,h3,h4,h5{
+  @apply font-medium
+}
+
 
 .primary-btn {
   @apply bg-[#009DAE] px-7 py-3 rounded-[5px] text-white
+}
+
+.banner-bg{
+  background: url(component/Banner/images/bg_black.png) top center no-repeat;
+  background-size: cover;
 }
 
 .bg-circle{
@@ -21,6 +30,12 @@ body{
 }
 .bg-circle:hover{
   @apply text-white border border-[#009DAE] bg-[#009DAE] p-3 rounded-full  
+}
+.bg-circle-footer{
+  @apply text-white border border-white p-3 rounded-full  
+}
+.bg-circle-footer:hover{
+  @apply text-[#009DAE] border bg-white p-3 rounded-full cursor-pointer
 }
 
 .offcanvas.active {

@@ -16,8 +16,8 @@ import { BiLogoDribbble, BiLogoFacebookCircle, BiLogoTwitter } from 'react-icons
 
 const Banner = () => {
     return (
-        <div className='relative z-10'>
-            <img className='absolute -z-10 w-full' src={bgBlack.src} alt="" />
+        <div className='banner-bg relative z-10'>
+            {/* <img className='absolute -z-10 w-full' src={bgBlack.src} alt="" /> */}
             <img className='absolute -z-10 top-0' src={bgPink.src} alt="" />
             <img className='absolute -z-10' src={bgPinkLeft.src} alt="" />
             <img className='absolute -z-10 mt-[90px] hidden md:flex' src={bgStar.src} alt="" />
