@@ -3,6 +3,7 @@ import mobileApplication from './images/mobile_application.png'
 import productDesign from './images/product_design.png'
 import fitnessPage from './images/fitness_landing_page.png'
 import { BsArrowRight } from 'react-icons/bs'
+import bgDot from './images/bg_dot.png'
 
 const WorkingProcess = () => {
     return (
@@ -16,7 +17,7 @@ const WorkingProcess = () => {
                     <Link className="hover:text-[#009DAE] hover:underline text-[#6D7288]" href='/'>UX Design</Link>
                     <Link className="hover:text-[#009DAE] hover:underline text-[#6D7288]" href='/'>Branding Design</Link>
                 </div>
-                <div className="flex justify-between mb-[70px]">
+                <div className="flex justify-between mb-[70px] relative">
                     <div className="relative bg-white shadow-sm rounded-[10px]">
                         <img src={mobileApplication.src} alt="" />
                         <div className="absolute bottom-20 left-0 right-0 inline-flex">
@@ -41,6 +42,7 @@ const WorkingProcess = () => {
                         </div>
                         <h6 className="text-[24px] font-medium mt-[48px] pb-[34px]">Fitness Landing Page</h6>
                     </div>
+                    <img className="absolute -right-10 -bottom-12 -z-10" src={bgDot.src} alt="" />
                 </div>
                 <button className="text-[#FF4F6E] border border-[#FF4F6E] px-[23px] py-[12px] rounded-[5px] flex items-center gap-[6px] mx-auto">See More <BsArrowRight></BsArrowRight></button>
             </div>
