@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Banner></Banner>
-      {/* <Services></Services> */}
+      <Services></Services>
       <About></About>
       <WorkingProcess></WorkingProcess>
       {/* <Feedback></Feedback> */}

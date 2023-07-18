@@ -41,6 +41,28 @@ h1,h2,h3,h4,h5{
   @apply text-[#009DAE] border bg-white p-3 rounded-full cursor-pointer
 }
 
+.mySwiper .swiper-button-prev{
+  border-radius: 56px;
+  background: #FF4F6E;
+  /* backdrop-filter: blur(25px); */
+  width: 56px;
+  height: 56px;
+  color: #FFFFFF;
+  /* margin-right: 10px!important; */
+}
+.mySwiper .swiper-button-next {
+  border-radius: 56px;
+  background: #FF4F6E;
+  /* backdrop-filter: blur(25px); */
+  width: 56px;
+  height: 56px;
+  color: #FFFFFF;
+  /* margin-left: -50%!important; */
+}
+
+
+
+
 .offcanvas.active {
   left: 0;
 }

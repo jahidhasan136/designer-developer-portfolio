@@ -8,7 +8,6 @@ import bgStar from './images/star_left.png'
 import bgLine from './images/bg_line.png'
 import bgDot from './images/bg_dot.png'
 import bgBlue from './images/bg_blue_right.png'
-import bgBlack from './images/bg_black.png'
 import mouseScroll from './images/mouse_scroll.png'
 
 import { GoArrowUpRight } from 'react-icons/go'
@@ -16,14 +15,13 @@ import { BiLogoDribbble, BiLogoFacebookCircle, BiLogoTwitter } from 'react-icons
 
 const Banner = () => {
     return (
-        <div className='banner-bg relative z-10'>
-            {/* <img className='absolute -z-10 w-full' src={bgBlack.src} alt="" /> */}
+        <div className='banner-bg relative -z-10'>
             <img className='absolute -z-10 top-0' src={bgPink.src} alt="" />
             <img className='absolute -z-10' src={bgPinkLeft.src} alt="" />
             <img className='absolute -z-10 mt-[90px] hidden md:flex' src={bgStar.src} alt="" />
-            <img className='absolute -z-10 mt-[90px] -bottom-28' src={bgLine.src} alt="" />
+            <img className='absolute -z-10 -bottom-28' src={bgLine.src} alt="" />
             <img className='absolute -z-10 right-0' src={bgBlue.src} alt="" />
-            <div className='container pt-[100px] md:pt-[180px]'>
+            <div className='container pt-[100px] md:pt-[180px] z-10'>
                 <div className='flex flex-col-reverse md:flex-row items-center gap-20 justify-between '>
                     <div className='relative z-10'>
                         <img className='' src={bgPhoto.src} alt="" />
