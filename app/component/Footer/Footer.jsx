@@ -7,11 +7,13 @@ import bgCall from './images/bg_call.png'
 import bgRight from './images/bg_right.png'
 import bottomLeft from './images/bottom_left.png'
 import topLeft from './images/top_left.png'
+import bgDot from './images/bg-dot.png'
 
 const Footer = () => {
     return (
         <div className='text-white relative mt-[493px]'>
-            <div className='absolute -top-1/3 left-0 right-0 inline-flex '>
+            <div className='container absolute -top-1/3 left-0 right-0 inline-flex '>
+                    <img className='absolute -z-10 right-20 -top-10' src={bgDot.src} alt="" />
                 <div className='bg-[#F5FDFD] px-[220px] py-[98px] text-center rounded-[40px] mx-auto relative z-10'>
                     <img className='absolute -z-10 top-0 left-8' src={bgCall.src} alt="" />
                     <img className='absolute -z-10 bottom-0 right-0' src={bgRight.src} alt="" />
