@@ -19,7 +19,7 @@ const Feedback = () => {
             <img className='absolute -z-10 right-0 top-10' src={bgBall.src} alt="" />
             <div className="container mt-[145px]">
                 <div>
-                    <h1 className="text-[45px] font-bold leading-[60px] mb-[86px]">Clients are satisfied for our work, view feedback</h1>
+                    <h1 className="text-[45px] font-bold leading-[60px] mb-[86px] w-1/2">Clients are satisfied for our work, view feedback</h1>
                     <div className='flex items-center gap-9'>
                         <div className='flex items-center bg-white  rounded-lg shadow-sm shadow-[#929bb31f] gap-10 relative'>
                             <img className='absolute -z-10 -bottom-10 -left-10' src={bgDot.src} alt="" />
@@ -34,7 +34,13 @@ const Feedback = () => {
                                         <h6 className='text-xl font-bold'>Bessie Cooper</h6>
                                         <p className='text-base text-[#373D4A]'>Product Designer</p>
                                     </div>
-                                    {/* ratings */}
+                                    <div className="rating mt-5">
+                                        <input type="radio" name="rating-1" className="mask mask-star w-[20px] bg-[#FFAF00]" />
+                                        <input type="radio" name="rating-1" className="mask w-[20px] mask-star bg-[#FFAF00]" checked />
+                                        <input type="radio" name="rating-1" className="mask mask-star w-[20px] bg-[#FFAF00]" checked />
+                                        <input type="radio" name="rating-1" className="mask w-[20px] mask-star bg-[#FFAF00]" checked />
+                                        <input type="radio" name="rating-1" className="mask mask-star w-[20px] bg-[#FFAF00]" checked />
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -47,6 +53,13 @@ const Feedback = () => {
                                 <div>
                                     <h6 className='text-xl font-bold'>Jane Cooper</h6>
                                     <p className='text-base text-[#373D4A]'>Web Designer</p>
+                                </div>
+                                <div className="rating mt-5">
+                                    <input type="radio" name="rating-1" className="mask mask-star w-[20px] bg-[#FFAF00]" checked />
+                                    <input type="radio" name="rating-1" className="mask mask-star w-[20px] bg-[#FFAF00]" checkedchecked />
+                                    <input type="radio" name="rating-1" className="mask mask-star w-[20px] bg-[#FFAF00]" checked />
+                                    <input type="radio" name="rating-1" className="mask mask-star w-[20px] bg-[#FFAF00]" checked />
+                                    <input type="radio" name="rating-1" className="mask mask-star w-[20px] bg-[#FFAF00]" checked />
                                 </div>
                             </div>
                         </div>
