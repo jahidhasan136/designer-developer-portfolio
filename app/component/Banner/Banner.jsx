@@ -21,7 +21,7 @@ const Banner = () => {
             <img className='absolute -z-10 mt-[90px] hidden md:flex' src={bgStar.src} alt="" />
             <img className='absolute -z-10 -bottom-28' src={bgLine.src} alt="" />
             <img className='absolute -z-10 right-0' src={bgBlue.src} alt="" />
-            <div className='container pt-[100px] md:pt-[180px] z-10'>
+            <div className='container pt-[100px] md:pt-[180px]'>
                 <div className='flex flex-col-reverse md:flex-row items-center gap-20 justify-between '>
                     <div className='relative z-10'>
                         <img className='' src={bgPhoto.src} alt="" />
