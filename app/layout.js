@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en" data-theme="light">
       <Header></Header>
       <body>{children}</body>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </html>
   )
 }

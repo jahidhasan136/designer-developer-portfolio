@@ -10,12 +10,12 @@ const WorkingProcess = () => {
         <div className="container mt-[60px] md:mt-[293px] lg:mt-[183px]">
             <div className="text-center">
                 <h6 className="uppercase text-[#FF4F6E] text-xl font-bold mb-5">Working Process</h6>
-                <h1 className="text-[36px] md:text-[46px] lg:text-[56px] font-bold mb-[35px]">My Creative Portfolio</h1>
+                <h1 className="text-[36px] md:text-[46px] lg:text-[56px] font-bold mb-[35px] leading-[45px]">My Creative Portfolio</h1>
                 <div className="flex justify-center gap-[27px] text-base mb-[58px]">
-                    <Link className="text-[#009DAE] underline font-medium" href='/'>All</Link>
-                    <Link className="hover:text-[#009DAE] hover:underline text-[#6D7288]" href='/'>UI Design</Link>
-                    <Link className="hover:text-[#009DAE] hover:underline text-[#6D7288]" href='/'>UX Design</Link>
-                    <Link className="hover:text-[#009DAE] hover:underline text-[#6D7288]" href='/'>Branding Design</Link>
+                    <Link className="text-[#009DAE] underline text-sm md:text-base font-medium" href='/'>All</Link>
+                    <Link className="hover:text-[#009DAE] hover:underline text-[#6D7288] text-sm md:text-base" href='/'>UI Design</Link>
+                    <Link className="hover:text-[#009DAE] hover:underline text-[#6D7288] text-sm md:text-base" href='/'>UX Design</Link>
+                    <Link className="hover:text-[#009DAE] hover:underline text-sm md:text-base text-[#6D7288]" href='/'>Branding Design</Link>
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[26px] justify-center mb-[70px] relative">
                     <div className="relative bg-white shadow-sm rounded-[10px]">
