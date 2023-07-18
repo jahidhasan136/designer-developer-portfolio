@@ -21,11 +21,11 @@ const Feedback = () => {
                 <div>
                     <h1 className="text-[45px] font-bold leading-[60px] mb-[86px]">Clients are satisfied for our work, view feedback</h1>
                     <div className='flex items-center gap-9'>
-                        <div className='flex items-center bg-white shadow-sm shadow-[#929bb31f] gap-10 relative'>
+                        <div className='flex items-center bg-white  rounded-lg shadow-sm shadow-[#929bb31f] gap-10 relative'>
                             <img className='absolute -z-10 -bottom-10 -left-10' src={bgDot.src} alt="" />
                             <img className='absolute right-0 top-0' src={shape.src} alt="" />
                             <img src={imageOne.src} alt="" />
-                            <div className=''>
+                            <div className='w-1/2'>
                                 <h6 className='text-2xl font-bold mb-[18px]'>Great Service!</h6>
                                 <p className='text-[22px] text-[#373D4A] mb-[27px] leading-[36px]'>Zahid did a great job. He understood my project and found the best way to redesign it and improve the UX of my users. </p>
                                 <div className='flex items-center gap-5'>
@@ -38,7 +38,7 @@ const Feedback = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='bg-white shadow-sm shadow-[#929bb31f] py-[40px] pl-[40px] relative w-7/12'>
+                        <div className='bg-white rounded-lg shadow-sm shadow-[#929bb31f] py-[40px] pl-[40px] relative w-7/12'>
                             <img className='absolute right-0 top-0' src={shape.src} alt="" />
                             <h6 className='text-2xl font-bold mb-[14px]'>Amazing Design!</h6>
                             <p className='text-[22px] text-[#373D4A] leading-[34px] mb-[39px]'>Akas did a great job. He understood my project and founder the best way to redesign it and improve the UX of my users.</p>
