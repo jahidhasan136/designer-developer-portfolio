@@ -20,7 +20,7 @@ const Footer = () => {
                     <h1 className='text-black text-[45px] font-bold mb-[43px] leading-[55px]'>Can't find your desire service? <br /> <span className='text-[#FF4F6E]'>Let us know 24/7 in 123456</span></h1>
                     <div className='flex gap-[25px] justify-center'>
                         <Link href='/' className='primary-btn'>Hire Me</Link>
-                        <Link href='/' className='bg-white px-7 py-3 border border-[#009DAE] rounded-[5px] text-[#009DAE]'>123456</Link>
+                        <Link href='/' className='bg-white px-7 py-3 border border-[#009DAE] rounded-[5px] text-[#009DAE] hover:text-white hover:bg-[#009DAE] transition-all'>123456</Link>
                     </div>
                 </div>
             </div>

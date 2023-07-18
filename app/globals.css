@@ -17,7 +17,10 @@ h1,h2,h3,h4,h5{
 
 
 .primary-btn {
-  @apply bg-[#009DAE] px-7 py-3 rounded-[5px] text-white
+  @apply bg-[#009DAE] px-7 py-3 border rounded-[5px] text-white
+}
+.primary-btn:hover {
+  @apply bg-white px-7 py-3 rounded-[5px] text-[#009DAE] border border-[#009DAE] transition-all
 }
 
 .banner-bg{

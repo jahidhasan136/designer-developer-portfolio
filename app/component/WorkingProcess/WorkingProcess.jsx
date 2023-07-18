@@ -44,7 +44,7 @@ const WorkingProcess = () => {
                     </div>
                     <img className="absolute -right-10 -bottom-12 -z-10" src={bgDot.src} alt="" />
                 </div>
-                <button className="text-[#FF4F6E] border border-[#FF4F6E] px-[23px] py-[12px] rounded-[5px] flex items-center gap-[6px] mx-auto">See More <BsArrowRight></BsArrowRight></button>
+                <button className="text-[#FF4F6E] border border-[#FF4F6E] hover:bg-[#FF4F6E] hover:text-white transition-all px-[23px] py-[12px] rounded-[5px] flex items-center gap-[6px] mx-auto">See More <BsArrowRight></BsArrowRight></button>
             </div>
         </div>
     );
