@@ -10,7 +10,7 @@ export default function Home() {
       <Banner></Banner>
       {/* <Services></Services> */}
       <About></About>
-      {/* <WorkingProcess></WorkingProcess> */}
+      <WorkingProcess></WorkingProcess>
       {/* <Feedback></Feedback> */}
     </>
   )
