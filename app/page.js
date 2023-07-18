@@ -11,7 +11,7 @@ export default function Home() {
       <Services></Services>
       <About></About>
       <WorkingProcess></WorkingProcess>
-      {/* <Feedback></Feedback> */}
+      <Feedback></Feedback>
     </>
   )
 }
