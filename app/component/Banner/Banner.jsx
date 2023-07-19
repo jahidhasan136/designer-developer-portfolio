@@ -33,10 +33,10 @@ const Banner = () => {
                         />
                         <img className='absolute -bottom-5 md:-bottom-11 md:-left-10 w-[59px] md:w-[128px]' src={bgDot.src} alt="" />
                     </div>
-                    <div className='md:w-[350px] xl:w-[630px] relative mb-[6px] md:mb-0'>
+                    <div className='md:w-[350px] xl:w-[630px] relative mb-[36px] md:mb-0'>
                         <img className='absolute hidden md:flex right-0 bottom-0 cursor-pointer z-10' src={mouseScroll.src} alt="" />
                         <h2 className='text-2xl md:text-[38px] text-[#FF4F6E] font-bold mb-[10px] md:mb-[5px]'>Hello, I'm Nancy</h2>
-                        <h1 className='text-4xl md:text-[65px] font-bold md:leading-[64px] lg:leading-[74px] xl:leading-[84px] mb-[43px]'>Professional UI/UX Designer & Web Developer</h1>
+                        <h1 className='text-4xl md:text-[65px] md:leading-[64px] lg:leading-[74px] xl:leading-[84px] mb-[43px] font-ubuntu'>Professional UI/UX Designer & Web Developer</h1>
                         <div className='md:flex items-center font-semibold mb-[35px] hidden'>
                             <div className='w-[54px] h-[54px] flex items-center'>
                                 <span className='bg-[#FF4F6E] p-2 flex items-center rounded-tr text-white'>
