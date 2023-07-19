@@ -67,9 +67,6 @@ h1,h2,h3,h4,h5{
   flex-direction: column-reverse!important;
 }
 
-.mySwiper .swiper-button-prev:after{
-  color: #A8B2CB;
-}
 
 .mySwiper .swiper-button-prev:after, .mySwiper .swiper-button-next:after {
   font-size: 20px;
@@ -77,6 +74,7 @@ h1,h2,h3,h4,h5{
 
 .mySwiper .swiper-button-disabled{
   background-color: #ECECEC;
+  color: #A8B2CB;
 }
 
 
