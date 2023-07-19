@@ -48,6 +48,8 @@ h1,h2,h3,h4,h5{
   width: 56px;
   height: 56px;
   color: #FFFFFF;
+  margin-top: -220px;
+  margin-left: 88%!important;
 }
 .mySwiper .swiper-button-next {
   border-radius: 56px;
@@ -56,6 +58,56 @@ h1,h2,h3,h4,h5{
   width: 56px;
   height: 56px;
   color: #FFFFFF;
+  margin-top: -220px;
+}
+
+.mySwiper{
+  display: flex!important;
+  flex-direction: column-reverse!important;
+}
+
+.mySwiper .swiper-button-prev:after{
+  color: #A8B2CB;
+}
+
+.mySwiper .swiper-button-prev:after, .mySwiper .swiper-button-next:after {
+  font-size: 20px;
+}
+
+.mySwiper .swiper-button-disabled{
+  background-color: #ECECEC;
+}
+
+
+/* Hide pagination on medium devices */
+@media (max-width: 1280px) {
+  .mySwiper .swiper-button-prev{
+    border-radius: 56px;
+    background: #FF4F6E;
+    /* backdrop-filter: blur(25px); */
+    width: 56px;
+    height: 56px;
+    color: #FFFFFF;
+    margin-top: -220px;
+    margin-left: 82%!important;
+  }
+}
+@media (max-width: 1023px) {
+  .mySwiper .swiper-button-prev{
+    border-radius: 56px;
+    background: #FF4F6E;
+    /* backdrop-filter: blur(25px); */
+    width: 56px;
+    height: 56px;
+    color: #FFFFFF;
+    margin-top: -220px;
+    margin-left: 78%!important;
+  }
+}
+
+
+.mySwiper .swiper-button-next, .mySwiper .swiper-button-prev{
+  @apply hidden md:flex
 }
 
 

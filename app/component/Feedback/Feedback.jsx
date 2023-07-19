@@ -16,7 +16,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 // import required modules
-import { Navigation } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 const Feedback = () => {
     return (
@@ -28,14 +28,17 @@ const Feedback = () => {
             <img className='absolute -z-10 right-0 top-10' src={bgBall.src} alt="" />
             <div className="container mt-[145px]">
                 <div>
-                    <h1 className="text-[35px] lg:text-[45px] font-bold leading-[40px] lg:leading-[60px] mb-[46px] lg:mb-[86px] md:w-1/2">Clients are satisfied for our work, view feedback</h1>
                     <Swiper
 
                         slidesPerView={1}
                         navigation={true}
-                        modules={[Navigation]}
+                        pagination={{
+                            clickable: true,
+                        }}
+                        modules={[Navigation, Pagination]}
                         className="mySwiper"
                     >
+                    <h1 className="text-[35px] lg:text-[45px] font-bold leading-[40px] lg:leading-[60px] mb-[46px] lg:mb-[86px] md:w-1/2">Clients are satisfied for our work, view feedback</h1>
                         <SwiperSlide>
                             <div className='flex items-center gap-9'>
                                 <div className='md:flex items-center bg-white  rounded-lg shadow-sm shadow-[#929bb31f] gap-5 lg:gap-10 relative'>

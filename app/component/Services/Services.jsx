@@ -4,12 +4,6 @@ import webDesign from './images/web-design.png'
 import digitalMarketing from './images/digital-marketing.png'
 import bgDot from './images/bg-dot.png'
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-// import required modules
-import { Navigation } from 'swiper/modules';
 
 const Services = () => {
     return (
@@ -19,59 +13,25 @@ const Services = () => {
                     <h6 className="uppercase text-[#FF4F6E] text-xl mb-[14px] font-medium">Services</h6>
                     <h2 className="capitalize font-bold text-[35px] leading-10 w-10/12">I provide wide range of digital services</h2>
                 </div>
-                <>
-                    <Swiper
-                        slidesPerView={1}
-                        breakpoints={{
-                            // when window width is >= 640px
-                            768: {
-                                slidesPerView: 2,
-                            },
-                            // when window width is >= 768px
-                            1826: {
-                                slidesPerView: 3,
-                            },
-                        }}
-                        spaceBetween={30}
-                        navigation={true}
-                        modules={[Navigation]}
-                        className="mySwiper">
-                        <SwiperSlide>
-                            <div className='bg-white py-[56px] px-10 shadow-lg text-center rounded-[10px] z-10'>
-                                <img className='mx-auto mb-[42px]' src={uiUx.src} alt="" />
-                                <h6 className='text-[30px] font-medium mb-[29px]'>UI/UX Design</h6>
-                                <p className='text-base text-[#929BB3]'>From the initial deesign to the final development stage, your dedicated team of specialists.</p>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='bg-white py-[56px] px-10 shadow-lg text-center rounded-[10px] z-10'>
-                                <img className='mx-auto mb-[42px]' src={webDesign.src} alt="" />
-                                <h6 className='text-[30px] font-medium mb-[29px]'>Web Design</h6>
-                                <p className='text-base text-[#929BB3]'>From the initial deesign to the final development stage, your dedicated team of specialists.</p>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='bg-white py-[56px] px-10 shadow-lg text-center rounded-[10px] z-10'>
-                                <img className='mx-auto mb-[42px]' src={digitalMarketing.src} alt="" />
-                                <h6 className='text-[30px] font-medium mb-[29px]'>Digital Marketing</h6>
-                                <p className='text-base text-[#929BB3]'>From the initial deesign to the final development stage, your dedicated team of specialists.</p>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className='bg-white py-[56px] px-10 shadow-lg text-center rounded-[10px] z-10'>
-                                <img className='mx-auto mb-[42px]' src={digitalMarketing.src} alt="" />
-                                <h6 className='text-[30px] font-medium mb-[29px]'>Digital Marketing</h6>
-                                <p className='text-base text-[#929BB3]'>From the initial deesign to the final development stage, your dedicated team of specialists.</p>
-                            </div>
-                        </SwiperSlide>
-                    </Swiper>
-                </>
-                {/* <div className='flex gap-[30px] relative'>
+
+                <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-[30px] relative'>
                     <img className='absolute -left-10 -bottom-10 -z-10' src={bgDot.src} alt="" />
-
-
-
-                </div> */}
+                    <div className='bg-white py-[56px] px-10 shadow-lg text-center rounded-[10px] z-10'>
+                        <img className='mx-auto mb-[42px]' src={uiUx.src} alt="" />
+                        <h6 className='text-[30px] font-medium mb-[29px]'>UI/UX Design</h6>
+                        <p className='text-base text-[#929BB3]'>From the initial deesign to the final development stage, your dedicated team of specialists.</p>
+                    </div>
+                    <div className='bg-white py-[56px] px-10 shadow-lg text-center rounded-[10px] z-10'>
+                        <img className='mx-auto mb-[42px]' src={webDesign.src} alt="" />
+                        <h6 className='text-[30px] font-medium mb-[29px]'>Web Design</h6>
+                        <p className='text-base text-[#929BB3]'>From the initial deesign to the final development stage, your dedicated team of specialists.</p>
+                    </div>
+                    <div className='bg-white py-[56px] px-10 shadow-lg text-center rounded-[10px] z-10'>
+                        <img className='mx-auto mb-[42px]' src={digitalMarketing.src} alt="" />
+                        <h6 className='text-[30px] font-medium mb-[29px]'>Digital Marketing</h6>
+                        <p className='text-base text-[#929BB3]'>From the initial deesign to the final development stage, your dedicated team of specialists.</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
