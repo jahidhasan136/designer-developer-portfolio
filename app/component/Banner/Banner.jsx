@@ -13,6 +13,7 @@ import mouseScroll from './images/mouse_scroll.png'
 import { GoArrowUpRight } from 'react-icons/go'
 import { BiLogoDribbble, BiLogoFacebookCircle, BiLogoTwitter } from 'react-icons/bi'
 
+
 const Banner = () => {
     return (
         <div className='banner-bg relative z-10'>
