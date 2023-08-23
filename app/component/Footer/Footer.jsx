@@ -11,7 +11,7 @@ import bgDot from './images/bg-dot.png'
 
 const Footer = () => {
     return (
-        <div className='text-white relative mt-[180px] md:mt-[280px] lg:mt-[393px] xl:mt-[493px]'>
+        <div className='text-white relative mt-[180px] md:mt-[280px] lg:mt-[393px] xl:mt-[401px]'>
             <div className='container absolute -top-24 lg:-top-1/3 left-0 right-0 inline-flex '>
                 <img className='absolute hidden md:flex -z-10 right-20 -top-10' src={bgDot.src} alt="" />
                 <div className='bg-[#F5FDFD] px-[20px] md:px-[120px] lg:px-[220px] py-[38px] md:py-[78px] lg:py-[98px] text-center rounded-lg md:rounded-[40px] mx-auto relative z-10'>

@@ -25,11 +25,11 @@ const Header = () => {
                         <img src={HeaderLogo.src} alt="" />
                     </Link>
                     <ul className="lg:flex xl:space-x-[50px] lg:space-x-[30px] xl:text-[18px] lg:text-[16px] font-medium text-black hidden">
-                        <li><Link href='/' className='transition hover:text-pink'>Home</Link></li>
-                        <li><Link href='/' className='transition hover:text-pink'>About us</Link></li>
-                        <li><Link href='/' className='transition hover:text-pink'>Services</Link></li>
-                        <li><Link href='/' className='transition hover:text-pink'>Portfolio</Link></li>
-                        <li><Link href='/' className='transition hover:text-pink'>Contact</Link></li>
+                        <li><Link href='/' className='transition hover:text-[#009DAE]'>Home</Link></li>
+                        <li><Link href='/' className='transition hover:text-[#009DAE]'>About us</Link></li>
+                        <li><Link href='/' className='transition hover:text-[#009DAE]'>Services</Link></li>
+                        <li><Link href='/' className='transition hover:text-[#009DAE]'>Portfolio</Link></li>
+                        <li><Link href='/' className='transition hover:text-[#009DAE]'>Contact</Link></li>
                     </ul>
                     <div className="hidden md:flex">
                         <Link href='/' className="primary-btn">Lets's talk</Link>
@@ -48,11 +48,11 @@ const Header = () => {
                     </Link>
                 </div>
                 <ul className="space-y-[15px] text-[16px] font-medium text-white mb-[20px]">
-                    <li><Link href='/' className='transition hover:text-pink'>Home</Link></li>
-                    <li><Link href='/' className='transition hover:text-pink'>About us</Link></li>
-                    <li><Link href='/' className='transition hover:text-pink'>Services</Link></li>
-                    <li><Link href='/' className='transition hover:text-pink'>Portfolio</Link></li>
-                    <li><Link href='/' className='transition hover:text-pink'>Contact</Link></li>
+                    <li><Link href='/' className='transition hover:text-[#009DAE]'>Home</Link></li>
+                    <li><Link href='/' className='transition hover:text-[#009DAE]'>About us</Link></li>
+                    <li><Link href='/' className='transition hover:text-[#009DAE]'>Services</Link></li>
+                    <li><Link href='/' className='transition hover:text-[#009DAE]'>Portfolio</Link></li>
+                    <li><Link href='/' className='transition hover:text-[#009DAE]'>Contact</Link></li>
                 </ul>
                 <div className="md:hidden mt-10">
                     <Link href='/' className="primary-btn">Lets's talk</Link>
