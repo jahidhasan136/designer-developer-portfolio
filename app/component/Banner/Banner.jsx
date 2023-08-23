@@ -39,8 +39,8 @@ const Banner = () => {
                         <h1 className='text-4xl md:text-[65px] md:leading-[64px] lg:leading-[74px] xl:leading-[84px] mb-[43px] font-ubuntu'>Professional UI/UX Designer & Web Developer</h1>
                         <div className='md:flex items-center font-semibold mb-[35px] hidden'>
                             <div className='w-[54px] h-[54px] flex items-center'>
-                                <span className='bg-[#FF4F6E] p-2 flex items-center rounded-tr text-white'>
-                                    <GoArrowUpRight className=''></GoArrowUpRight>
+                                <span className='bg-[#FF4F6E] p-[2px] flex items-center rounded-tr text-white'>
+                                    <GoArrowUpRight className='text-4xl'></GoArrowUpRight>
                                 </span>
                             </div>
                             Hire Me Now
@@ -65,8 +65,8 @@ const Banner = () => {
 
                 <div className='md:hidden flex items-center font-semibold md:mb-[35px] gap-[57px] md:gap-0 mt-[20px] md:mt-0'>
                     <div className='w-[54px] h-[54px] flex items-center'>
-                        <span className='bg-[#FF4F6E] p-2 flex items-center rounded-tr text-white'>
-                            <GoArrowUpRight className=''></GoArrowUpRight>
+                        <span className='bg-[#FF4F6E] p-[2px] flex items-center rounded-tr text-white'>
+                            <GoArrowUpRight className='text-[36px]'></GoArrowUpRight>
                         </span>
                     </div>
                     Hire Me Now
