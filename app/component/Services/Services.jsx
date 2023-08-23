@@ -7,7 +7,7 @@ import bgDot from './images/bg-dot.png'
 
 const Services = () => {
     return (
-        <div className="xl:pl-[300px] mt-[115px] z-10">
+        <div className="xl:pl-[300px] mt-10 md:mt-[115px] z-10 px-4 md:px-0">
             <div className='xl:flex items-center justify-center md:gap-[10px]'>
                 <div className='p-3 xl:p-0'>
                     <h6 className="uppercase text-[#FF4F6E] text-xl mb-[14px] font-medium">Services</h6>

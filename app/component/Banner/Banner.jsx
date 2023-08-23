@@ -22,18 +22,18 @@ const Banner = () => {
             <img className='absolute -z-10 -bottom-28' src={bgLine.src} alt="" />
             <img className='absolute -z-10 right-0' src={bgBlue.src} alt="" />
             <div className='container pt-[100px] md:pt-[180px]'>
-                <div className='flex flex-col-reverse md:flex-row items-center gap-20 justify-between '>
+                <div className='flex flex-col-reverse md:flex-row items-center justify-between '>
                     <div className='relative z-10'>
-                        <img className='' src={bgPhoto.src} alt="" />
+                        <img className='h-[364px] md:h-full' src={bgPhoto.src} alt="" />
                         <Image
                             src={photo.src}
                             width={photo.width}
                             height={photo.height}
-                            className='absolute bottom-0'
+                            className='absolute bottom-0 w-3/4'
                         />
-                        <img className='absolute -bottom-5 md:-bottom-11 md:-left-10 w-[59px] md:w-[128px]' src={bgDot.src} alt="" />
+                        <img className='absolute -bottom-0 md:-bottom-11 md:-left-10 w-[59px] md:w-[128px]' src={bgDot.src} alt="" />
                     </div>
-                    <div className='md:w-[350px] xl:w-[630px] relative mb-[36px] md:mb-0'>
+                    <div className='md:w-[350px] xl:w-[630px] relative'>
                         <img className='absolute hidden md:flex right-0 bottom-0 cursor-pointer z-10' src={mouseScroll.src} alt="" />
                         <h2 className='text-2xl md:text-[38px] text-[#FF4F6E] font-bold mb-[10px] md:mb-[5px]'>Hello, I'm Nancy</h2>
                         <h1 className='text-4xl md:text-[65px] md:leading-[64px] lg:leading-[74px] xl:leading-[84px] mb-[43px] font-ubuntu'>Professional UI/UX Designer & Web Developer</h1>
@@ -63,7 +63,7 @@ const Banner = () => {
 
                     {/* mobile device */}
 
-                <div className='md:hidden flex items-center font-semibold md:mb-[35px] gap-[57px] md:gap-0 mt-[27px] md:mt-0'>
+                <div className='md:hidden flex items-center font-semibold md:mb-[35px] gap-[57px] md:gap-0 mt-[20px] md:mt-0'>
                     <div className='w-[54px] h-[54px] flex items-center'>
                         <span className='bg-[#FF4F6E] p-2 flex items-center rounded-tr text-white'>
                             <GoArrowUpRight className=''></GoArrowUpRight>
@@ -71,7 +71,7 @@ const Banner = () => {
                     </div>
                     Hire Me Now
                 </div>
-                <div className='bg-[#DEE4E5] h-[2px] mt-[10px] md:hidden'></div>
+                <div className='bg-[#DEE4E5] h-[2px] mt-[5px] md:hidden'></div>
             </div >
         </div>
     );

@@ -4,9 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 import HeaderLogo from './images/header_logo.png'
-import { IconContext } from "react-icons";
-import { HiMiniBars3BottomRight } from "react-icons/hi2";
-import { FaTimesCircle } from "react-icons/fa";
+import { FaBars, FaTimesCircle } from "react-icons/fa";
 
 const Header = () => {
     const [isActive, setIsActive] = useState(false);
@@ -37,17 +35,7 @@ const Header = () => {
                         <Link href='/' className="primary-btn">Lets's talk</Link>
                     </div>
                     <div className="text-2xl menu-trigger lg:hidden ml-[15px] h-[50px] w-[50px] flex items-center justify-center rounded-lg bg-white" onClick={handleClick}>
-                        <IconContext.Provider
-                            value={{ style: { fill: 'url(#gradient)' } }}
-                        >
-                            <svg width="0" height="0">
-                                <linearGradient id="gradient" x1="0" y1="0" x2="100%" y2="100%">
-                                    <stop offset="0%" stopColor="#D116BF" />
-                                    <stop offset="100%" stopColor="#3016D1" />
-                                </linearGradient>
-                            </svg>
-                            <HiMiniBars3BottomRight />
-                        </IconContext.Provider>
+                        <FaBars></FaBars>
                     </div>
                 </div>
             </header>
